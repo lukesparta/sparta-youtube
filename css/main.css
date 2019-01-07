@@ -1,0 +1,106 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+body{
+    margin: 0;
+    background: #1F5673;
+}
+
+h1{
+    font-size: 45px; 
+}
+
+.header{
+    background: #463730;
+}
+.logo{
+    width: 30%;
+}
+
+.nav{
+    list-style:none;
+    margin-top: 10px;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    text-decoration: none;
+    padding:10px 14px;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    font-size: 1.25rem;
+}
+
+.nav a:hover{
+    background-color: #1F5673;
+    color: white;
+}
+
+.current{
+    background-color: #1F5673;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+}
+
+.welcome-message {
+    padding: 0 120px;
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.video-container{
+    background: #759FBC;
+    padding: 10px 15px;
+}
+
+.footer{
+    background: #463730;
+}
+
+.footer img {
+    width: 140%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+.flex-container > div {
+    text-align: left;
+    line-height: 40px;
+    font-size: 1.25em;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul a:hover {
+    color: #759FBC;
+}
+
+.contact{
+    margin-left: 55px;
+}
